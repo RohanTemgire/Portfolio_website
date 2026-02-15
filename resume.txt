@@ -1,0 +1,93 @@
+Rohan Temgire
+Cloud Engineer at LTIMindtree
+Personal Details
+Address: 3/13, B Anjeerwadi, Dr. Mascarenhas Road, Mazgaon, Mumbai - 400010
+Phone: (+91) 8369377791
+Email: rohan.temgire01@gmail.com
+Languages: Hindi, Marathi, English (C1), German (Beginner)
+LinkedIn: Rohan Temgire
+GitHub: RohanTemgire
+Work Experience
+Apr 2024 – PresentLTIMindtree — Cloud Engineer
+•Built scalable ETL pipelines in Azure Data Factory and Databricks,
+handling both API and batch ingestion into ADLS with Parquet-
+optimized storage layouts.
+•Developed Looker Studio dashboards tailored for cross-functional
+teams, translating raw pipeline outputs into actionable visual insights
+and KPI tracking.
+•Designed and implemented bronze–silver–gold architecture in
+ADLS/Synapse with optimized partitioning and file-compaction strate-
+gies to improve performance and reduce storage overhead.
+Sept 2023 – Dec 2023Ecomverse Technologies — Mobile Developer
+•Developed a robust Laravel-based backend order management sys-
+tem at Ecomverse Technologies and built its accompanying Android
+application, “Karigari – Order Management,” using Kotlin.
+•Gained hands-on experience with mobile UI design, handling conflicting
+orders, and optimizing performance under network delays.
+Feb 2023 – Jun 2023LTIMindtree — Java Developer Intern
+•Completed a Java Developer internship at LTIMindtree, gaining ex-
+tensive hands-on experience with core Java concepts, OOP principles,
+and enterprise-level backend development.
+•Built multiple projects using Java and developed robust, scalable
+RESTful backends with Spring Boot, significantly strengthening my
+technical depth and practical problem-solving skills.
+Nov 2022 – Feb 2023Neumann Fornax — Software Development Intern
+•Led the design of an automated duplicate-data removal system, reduc-
+ing database size by 62%.
+•Implemented daily scraping of 100,000+ rows from Zomato and Swiggy
+using Python CRONs and BeautifulSoup.
+---PAGE BREAK---
+Education
+2019 – 2023Terna Engineering College, Mumbai
+B.E. Computer Engineering, Mumbai University
+Grade: 8.60 (CGPA)
+2017 – 2019Navneet Jr. College, Mumbai Central
+Higher Secondary Education (Maharashtra State Board)
+Grade: 66.46%
+2017Antonio De Souza High School, Mumbai
+Secondary School Certificate (Maharashtra State Board)
+Grade: 72.20%
+Certifications
+Dec 2024Google Professional Data Engineer
+Google
+Jan ’24 - Jun ’24Data Science Bootcamp
+OdinSchool
+Technologies
+Programming Lan-
+guagesPython, SQL, Java, PySpark, MongoDB
+Data Engineering &
+ProcessingETL/ELT Pipeline Development, Data Modeling (Star/Snowflake
+Schema), Batch and Stream Data Processing, Workflow Orchestration
+Big Data & Dis-
+tributed SystemsSpark, PySpark, Hadoop (HDFS, Hive), Apache Kafka, Apache Airflow
+Cloud Platforms Microsoft Azure (Data Factory, Blob Storage, Synapse, Databricks),
+Google Cloud Platform (BigQuery, Cloud Composer), AWS (basic famil-
+iarity)
+Databases & Ware-
+housingMySQL, MongoDB (NoSQL), Microsoft SQL Server, Google BigQuery
+ToolsPower BI, Looker Studio, Git, SSIS, Docker
+Projects & Publications
+Real-Time Stock Price Monitoring System- Python, GCP, Looker Studio
+•Designed a real-time data pipeline using GCP (Pub/Sub, Dataflow, BigQuery) for streaming stock
+analytics with efficient storage and querying.
+•Created Looker Studio dashboards and integrated robust security measures (IAM, encryption, VPC
+Service Controls) for scalable, secure insights.
+CloudShift — Seamless On-Prem to Azure Migration- SSMS, Azure Synapse Analytics, Databricks
+•Migrated3GB+of on-prem data to Azure using SSMS, self-hosted integration runtime, securing
+credentials with Azure Key Vault.
+•Optimized storage by30%using Delta format and Medallion architecture in ADLS Gen2.
+•Developed a Databricks pipeline processing3GB+ daily, enhancing accuracy, integrity, and perfor-
+mance.
+Land Registry Management System Using BlockchainApr 2023
+Rohan Temgire, Sanjana Gate, Atharva Bankar, Rohit Chavan
+2395-566X Volume 9, Issue 2, Mar–Apr 2023
+---PAGE BREAK---
+Achievements & Extracurricular Activities
+•Served as Placement Coordinator,facilitating student recruitment, industry engagement, and
+career development initiatives
+•Earned a Gold Badge in SQLon HackerRank, demonstrating strong database querying and
+optimization skills Profile
+Declaration
+I hereby declare that the information provided above is true and correct to the best of my knowledge.
+Rohan Temgire
+---PAGE BREAK---
