@@ -1,8 +1,6 @@
 
 # 🚀 Rohan Temgire - Portfolio
 
-![Portfolio Preview](public/potrait-high-res.jpg)
-
 ## 👨‍💻 AI Solutions Architect & Cloud Engineer
 
 **Specializing in Generative AI | Machine Learning | Data Engineering**
