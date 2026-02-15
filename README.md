@@ -1,16 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Rohan Temgire - Portfolio
 
-Currently, two official plugins are available:
+![Portfolio Preview](public/potrait-high-res.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👨‍💻 AI Solutions Architect & Cloud Engineer
 
-## React Compiler
+**Specializing in Generative AI | Machine Learning | Data Engineering**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I specialize in building autonomous agents, RAG systems, and scalable GenAI applications, backed by a strong foundation in enterprise data infrastructure.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Generative AI & ML
+- **Core**: LLMs, RAG Systems, AI Agents (CrewAI)
+- **Frameworks**: LangChain, LlamaIndex, TensorFlow, PyTorch
+- **Tools**: OpenAI API, Google Gemini, Hugging Face
+
+### Data Engineering & Cloud
+- **Cloud Platforms**: Azure, GCP
+- **Big Data**: Databricks, Synapse, PySpark, Kafka, Airflow
+- **Databases**: MongoDB, ChromaDB, Pinecone, BigQuery
+
+### Development
+- **Backend**: Python, FastAPI, Flask
+- **Frontend**: React, Tailwind CSS
+- **DevOps**: Docker, Kubernetes, Jenkins, Ansible, Git
+
+---
+
+## 📂 Project Highlights
+
+- **The Price is Right — Autonomous AI**: Multi-agent framework for real-time deal hunting.
+- **InsureLLM RAG Chatbot**: Enterprise-grade RAG system for insurance queries.
+- **Brain Tumor Detection**: Medical MRI classification using EfficientNetB2.
+- **Fashion Image Classifier**: End-to-end image classification with Transfer Learning.
+
+---
+
+## 🔗 Connect
+
+- [LinkedIn](https://www.linkedin.com/in/rohan-temgire-550606195/)
+- [GitHub](https://github.com/RohanTemgire)
