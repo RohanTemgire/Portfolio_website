@@ -1,6 +1,16 @@
 
 export const PROJECTS = [
     {
+        title: "Interview Prep — AI Coach",
+        description: "A comprehensive AI interview platform that simulates real-world scenarios with voice and chat capabilities. Features a 'Gauntlet Mode' for technical mastery, integrated Razorpay payments, and Gemini 3.0 models.",
+        tech: ["Gemini 3.0", "FastAPI", "PostgreSQL", "LangChain", "React", "Razorpay"],
+        category: "GenAI",
+        image: "./interview_prep.png", // Placeholder, will use fallback or can be updated
+        liveLink: "https://interview-prep-frontend-dusky.vercel.app/",
+        githubLink: "#", // Private startup repo? Leaving as # for now based on context
+        isStartup: true // Custom flag for styling
+    },
+    {
         title: "The Price is Right — Autonomous AI",
         description: "Autonomous multi-agent framework that monitors deal feeds, estimates true values using ensemble AI models, and sends push notifications for discounts.",
         tech: ["Gemini 2.5", "LangChain", "ChromaDB", "Pushover", "Streamlit"],

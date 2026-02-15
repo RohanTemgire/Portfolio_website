@@ -30,6 +30,7 @@ I specialize in building autonomous agents, RAG systems, and scalable GenAI appl
 
 ## 📂 Project Highlights
 
+- **Interview Prep — AI Coach** (Flagship): Agentic AI platform with Gauntlet Mode & Voice.
 - **The Price is Right — Autonomous AI**: Multi-agent framework for real-time deal hunting.
 - **InsureLLM RAG Chatbot**: Enterprise-grade RAG system for insurance queries.
 - **Brain Tumor Detection**: Medical MRI classification using EfficientNetB2.
