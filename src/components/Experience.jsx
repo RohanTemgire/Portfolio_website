@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import { EXPERIENCE } from "../data/experience";
+import { EXPERIENCE, EDUCATION } from "../data/experience";
 import { HoloCard, CyberButton } from "./GamificationElements";
-import { CheckCircle2, CircleDashed } from "lucide-react";
+import { CheckCircle2, CircleDashed, GraduationCap } from "lucide-react";
 
 export function Experience() {
     return (
@@ -59,7 +59,59 @@ export function Experience() {
                         )
                     })}
                 </div>
+
+
+                {/* Education Section */}
+                <div id="education">
+                <h2 className="text-4xl font-bold mb-12 mt-24 text-center text-cyan-400 font-mono tracking-widest uppercase hologram">
+                    &lt; TRAINING_LOG /&gt;
+                </h2>
+
+                <div className="space-y-6 relative">
+                    {/* Connecting Line */}
+                    <div className="absolute left-[27px] top-0 bottom-0 w-0.5 bg-purple-500/20" />
+
+                    {EDUCATION.map((edu, i) => {
+                        const isCurrent = edu.period.includes("Present");
+                        return (
+                            <motion.div
+                                key={i}
+                                initial={{ opacity: 0, x: -20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                transition={{ delay: i * 0.15 }}
+                                viewport={{ once: true }}
+                                className="relative pl-16"
+                            >
+                                {/* Icon */}
+                                <div className={`absolute left-0 top-0 p-1 rounded-full border-2 bg-black z-10 ${isCurrent ? "border-purple-400 text-purple-400 animate-pulse" : "border-purple-500/50 text-purple-500/50"}`}>
+                                    <GraduationCap className="w-8 h-8" />
+                                </div>
+
+                                <HoloCard className={`p-6 ${isCurrent ? "border-purple-400/50 bg-purple-900/10" : "opacity-80 hover:opacity-100 transition-opacity"}`} title={isCurrent ? "IN_PROGRESS" : "COMPLETED"}>
+                                    <div className="flex flex-col md:flex-row justify-between items-start">
+                                        <div>
+                                            <h3 className={`text-xl font-bold font-mono ${isCurrent ? "text-purple-400" : "text-white"}`}>
+                                                {edu.degree}
+                                            </h3>
+                                            <p className="text-cyan-500 text-sm tracking-wider mt-1">{edu.institution}</p>
+                                        </div>
+                                        <div className="text-right mt-2 md:mt-0">
+                                            <div className="text-xs font-mono text-gray-500">{edu.period}</div>
+                                            {edu.grade && (
+                                                <div className="inline-block px-2 py-0.5 mt-1 bg-purple-500/10 text-purple-400 text-[10px] border border-purple-500/30 rounded">
+                                                    GRADE: {edu.grade}
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+                                </HoloCard>
+                            </motion.div>
+                        )
+                    })}
+                </div>
+                </div>
             </div>
         </section>
     );
 }
+

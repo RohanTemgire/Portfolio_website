@@ -8,7 +8,7 @@ with hands-on experience across Azure, GCP, and full-stack development.
 Google Certified Professional Data Engineer.`,
   email: "rohan.temgire01@gmail.com",
   phone: "(+91) 8369377791",
-  address: "Mumbai, India",
+  address: "Rostock, Germany",
   languages: ["Hindi", "Marathi", "English (C1)", "German (Beginner)"],
   social: {
     linkedin: "https://www.linkedin.com/in/rohan-temgire-550606195/",

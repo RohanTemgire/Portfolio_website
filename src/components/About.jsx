@@ -14,7 +14,7 @@ export function About() {
 
             <div className="max-w-4xl mx-auto px-4">
                 <h2 className="text-4xl font-bold mb-8 text-center text-cyan-400 font-mono tracking-widest uppercase hologram">
-                    &lt; BIO_DATA /&gt;
+                    &lt; ABOUT_ME /&gt;
                 </h2>
 
                 <motion.div

@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { Terminal, Users, Code, Cpu, Activity, Wifi, Command, Award } from "lucide-react";
+import { Terminal, Users, Code, Cpu, Activity, Wifi, Command, Award, GraduationCap } from "lucide-react";
 import { CyberButton, GlitchText } from "./GamificationElements";
 import { PROFILE } from "../data/profile";
 import { RetroTerminal } from "./RetroTerminal";
@@ -9,16 +9,44 @@ export function Layout({ children }) {
     const [activeTab, setActiveTab] = useState("hero");
     const [time, setTime] = useState(new Date().toLocaleTimeString());
     const [isTerminalOpen, setIsTerminalOpen] = useState(false);
+    const isClickNavRef = useRef(false);
 
     useEffect(() => {
         const timer = setInterval(() => setTime(new Date().toLocaleTimeString()), 1000);
         return () => clearInterval(timer);
     }, []);
 
+    // IntersectionObserver to auto-highlight active section on scroll
+    useEffect(() => {
+        const sectionIds = ["hero", "about", "experience", "education", "projects", "certifications", "skills", "contact"];
+        const observerOptions = {
+            root: null,
+            rootMargin: "-20% 0px -60% 0px",
+            threshold: 0,
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            if (isClickNavRef.current) return;
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    setActiveTab(entry.target.id);
+                }
+            });
+        }, observerOptions);
+
+        sectionIds.forEach((id) => {
+            const el = document.getElementById(id);
+            if (el) observer.observe(el);
+        });
+
+        return () => observer.disconnect();
+    }, []);
+
     const navItems = [
         { id: "hero", icon: Users, label: "CHAR_STATS" },
-        { id: "about", icon: Terminal, label: "BIO_DATA" },
+        { id: "about", icon: Terminal, label: "ABOUT_ME" },
         { id: "experience", icon: Activity, label: "QUEST_LOG" },
+        { id: "education", icon: GraduationCap, label: "TRAINING_LOG" },
         { id: "projects", icon: Code, label: "MISSION_FILES" },
         { id: "certifications", icon: Award, label: "LICENSES" },
         { id: "skills", icon: Cpu, label: "SKILL_TREE" },
@@ -26,8 +54,11 @@ export function Layout({ children }) {
     ];
 
     const handleNav = (id) => {
+        isClickNavRef.current = true;
         setActiveTab(id);
         document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+        // Re-enable observer after scroll animation settles
+        setTimeout(() => { isClickNavRef.current = false; }, 1000);
     };
 
     return (

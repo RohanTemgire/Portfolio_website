@@ -30,7 +30,7 @@ export function RetroTerminal({ isOpen, onClose }) {
                     content: (
                         <div className="space-y-1">
                             <p>AVAILABLE COMMANDS:</p>
-                            <p className="text-cyan-400">  about    - View bio data</p>
+                            <p className="text-cyan-400">  about    - View about me</p>
                             <p className="text-purple-400">  skills   - List technical capabilities</p>
                             <p className="text-green-400">  contact  - Display comms channels</p>
                             <p className="text-yellow-400">  clear    - Clear terminal</p>
