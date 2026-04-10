@@ -3,7 +3,7 @@ export const EXPERIENCE = [
     {
         role: "Cloud Engineer",
         company: "LTIMindtree",
-        period: "Apr 2024 – Present",
+        period: "Apr 2024 – Mar 2026",
         description: [
             "Built scalable ETL pipelines in Azure Data Factory and Databricks, handling both API and batch ingestion into ADLS with Parquet-optimized storage layouts.",
             "Developed Looker Studio dashboards tailored for cross-functional teams, translating raw pipeline outputs into actionable visual insights and KPI tracking.",
@@ -40,6 +40,12 @@ export const EXPERIENCE = [
 ];
 
 export const EDUCATION = [
+    {
+        degree: "Masters in Computer Science",
+        institution: "University of Rostock, Rostock",
+        period: "2026 – Present",
+        // grade: "8.60 CGPA"
+    },
     {
         degree: "B.E. Computer Engineering",
         institution: "Terna Engineering College, Mumbai",

@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+resume.txt
+resume_update_content.txt
+resume.pdf
