@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Rohan Temgire",
-  title: "Cloud Engineer",
+  title: "Gen AI Engineer",
   tagline: "Building scalable data pipelines & cloud-native solutions",
   bio: `Cloud Engineer at LTIMindtree with a passion for building scalable ETL pipelines, 
 data-driven dashboards, and cloud-native architectures. B.E. in Computer Engineering 
