@@ -9,6 +9,17 @@ I specialize in building autonomous agents, RAG systems, and scalable GenAI appl
 
 ---
 
+## 🏃‍♂️ Running Locally
+
+To install dependencies and start the development server, run:
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Generative AI & ML

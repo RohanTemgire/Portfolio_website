@@ -5,9 +5,9 @@ export const EXPERIENCE = [
         company: "LTIMindtree",
         period: "Apr 2024 – Mar 2026",
         description: [
-            "Built scalable ETL pipelines in Azure Data Factory and Databricks, handling both API and batch ingestion into ADLS with Parquet-optimized storage layouts.",
-            "Developed Looker Studio dashboards tailored for cross-functional teams, translating raw pipeline outputs into actionable visual insights and KPI tracking.",
-            "Designed and implemented bronze–silver–gold architecture in ADLS/Synapse with optimized partitioning and file-compaction strategies to improve performance and reduce storage overhead."
+            "Built API and batch ingestion pipelines in Azure Data Factory and Databricks, processing up to 50GB/day into ADLS with Parquet-optimized layouts, supporting both scheduled batch loads and event-driven API ingestion.",
+            "Designed and implemented a bronze-silver-gold medallion architecture on ADLS/Synapse with partition pruning and file-compaction strategies, reducing average query latency by ~40% and cutting storage overhead by ~25%.",
+            "Delivered Looker Studio dashboards adopted by 5 cross-functional teams, replacing manual Excel-based reporting and reducing reporting turnaround from 2–3 days to same-day availability."
         ]
     },
     {
@@ -15,8 +15,7 @@ export const EXPERIENCE = [
         company: "Ecomverse Technologies",
         period: "Sept 2023 – Dec 2023",
         description: [
-            "Developed a robust Laravel-based backend order management system and built its accompanying Android application, 'Karigari – Order Management,' using Kotlin.",
-            "Gained hands-on experience with mobile UI design, handling conflicting orders, and optimizing performance under network delays."
+            "Built a Laravel backend and Android app (Kotlin) for 'Karigari', an order management system handling conflict resolution and low-connectivity edge cases."
         ]
     },
     {
@@ -24,8 +23,7 @@ export const EXPERIENCE = [
         company: "LTIMindtree",
         period: "Feb 2023 – Jun 2023",
         description: [
-            "Gained extensive hands-on experience with core Java concepts, OOP principles, and enterprise-level backend development.",
-            "Built multiple projects using Java and developed robust, scalable RESTful backends with Spring Boot."
+            "Developed RESTful backend services using Spring Boot, applying OOP design patterns for enterprise-scale backend architecture."
         ]
     },
     {
@@ -33,8 +31,8 @@ export const EXPERIENCE = [
         company: "Neumann Fornax",
         period: "Nov 2022 – Feb 2023",
         description: [
-            "Led the design of an automated duplicate-data removal system, reducing database size by 62%.",
-            "Implemented daily scraping of 100,000+ rows from Zomato and Swiggy using Python CRONs and BeautifulSoup."
+            "Built an automated deduplication system that reduced database size by 62%.",
+            "Implemented Python CRON jobs scraping 100,000+ daily rows from Zomato and Swiggy using BeautifulSoup."
         ]
     }
 ];

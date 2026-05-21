@@ -24,12 +24,9 @@ export function About() {
                     viewport={{ once: true }}
                 >
                     <div className="text-gray-300 space-y-6 leading-relaxed text-lg font-sans border-l-2 border-cyan-500/30 pl-6 bg-white/5 p-6 rounded-r-xl backdrop-blur-sm">
-                        <p>
-                            Transitioning from Software and Mobile Development to Cloud Engineering, I have spent the last year architecting scalable data ecosystems at LTIMindtree. I build robust ETL pipelines using Azure and Databricks, ensuring high-quality data availability for enterprise analytics.
-                        </p>
-                        <p>
-                            Now, I have pivoted my focus entirely to <strong>Generative AI</strong>. I am building autonomous agents, RAG chatbots, and multi-modal systems, proving that I can not only engineer the data but also the intelligence that drives it. I am keen to apply this full-stack AI expertise to build the next generation of intelligent applications.
-                        </p>
+                        {PROFILE.aboutMe.map((paragraph, index) => (
+                            <p key={index} dangerouslySetInnerHTML={{ __html: paragraph.replace('Generative AI', '<strong>Generative AI</strong>') }} />
+                        ))}
                     </div>
 
                     <div className="mt-8 flex gap-4 justify-center">
