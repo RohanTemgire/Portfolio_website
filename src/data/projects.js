@@ -37,24 +37,24 @@ export const PROJECTS = [
         liveLink: "",
         githubLink: "https://github.com/RohanTemgire/machine-learning-zoomcamp/tree/main/Capstone_project"
     },
-    {
-        title: "Fashion Image Classifier",
-        description: "End-to-end clothing classification system achieving 90% accuracy using Transfer Learning (Xception). Deployed with a FastAPI backend.",
-        tech: ["Xception", "TensorFlow", "Streamlit", "FastAPI"],
-        category: "ML",
-        image: "/fashion_classifier.png",
-        liveLink: "https://fashion-classifier-2.streamlit.app/",
-        githubLink: "https://github.com/RohanTemgire/machine-learning-zoomcamp/tree/main/08-Deep-learning"
-    },
-    {
-        title: "Credit Risk Scoring Engine",
-        description: "Financial risk assessment model predicting loan defaults using XGBoost and Decision Trees to optimize lending decisions.",
-        tech: ["XGBoost", "Scikit-Learn", "Python", "Pandas"],
-        category: "ML",
-        image: "/credit_risk_scording.png",
-        liveLink: "",
-        githubLink: "https://github.com/RohanTemgire/machine-learning-zoomcamp/tree/main/07-midterm%20proj"
-    },
+    // {
+    //     title: "Fashion Image Classifier",
+    //     description: "End-to-end clothing classification system achieving 90% accuracy using Transfer Learning (Xception). Deployed with a FastAPI backend.",
+    //     tech: ["Xception", "TensorFlow", "Streamlit", "FastAPI"],
+    //     category: "ML",
+    //     image: "/fashion_classifier.png",
+    //     liveLink: "https://fashion-classifier-2.streamlit.app/",
+    //     githubLink: "https://github.com/RohanTemgire/machine-learning-zoomcamp/tree/main/08-Deep-learning"
+    // },
+    // {
+    //     title: "Credit Risk Scoring Engine",
+    //     description: "Financial risk assessment model predicting loan defaults using XGBoost and Decision Trees to optimize lending decisions.",
+    //     tech: ["XGBoost", "Scikit-Learn", "Python", "Pandas"],
+    //     category: "ML",
+    //     image: "/credit_risk_scording.png",
+    //     liveLink: "",
+    //     githubLink: "https://github.com/RohanTemgire/machine-learning-zoomcamp/tree/main/07-midterm%20proj"
+    // },
     {
         title: "Real-Time Stock Price Monitoring System",
         description: "Designed a real-time data pipeline using GCP (Pub/Sub, Dataflow, BigQuery) for streaming stock analytics with efficient storage and querying.",
@@ -73,13 +73,13 @@ export const PROJECTS = [
         liveLink: "#",
         githubLink: "#"
     },
-    {
-        title: "Land Registry Management System",
-        description: "Blockchain-based system for secure and transparent land registry management.",
-        tech: ["Blockchain", "Solidity", "React"],
-        category: "Web3", // Mapping to Other if not GenAI/ML
-        image: "/project-land.jpg", // Placeholder
-        liveLink: "#",
-        githubLink: "#"
-    }
+    // {
+    //     title: "Land Registry Management System",
+    //     description: "Blockchain-based system for secure and transparent land registry management.",
+    //     tech: ["Blockchain", "Solidity", "React"],
+    //     category: "Web3", // Mapping to Other if not GenAI/ML
+    //     image: "/project-land.jpg", // Placeholder
+    //     liveLink: "#",
+    //     githubLink: "#"
+    // }
 ];
