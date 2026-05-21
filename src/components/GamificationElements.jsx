@@ -45,15 +45,14 @@ export function CyberButton({ children, onClick, className, variant = "primary" 
                 "relative text-sm font-mono uppercase tracking-widest px-8 py-3 transition-all group overflow-hidden",
                 "before:absolute before:inset-0 before:skew-x-12 before:transition-transform before:duration-300 active:scale-95",
                 isPrimary
-                    ? "text-black font-bold hover:text-white"
+                    ? "text-black font-bold"
                     : "text-cyan-400 hover:text-black",
                 className
             )}
         >
-            {/* Background Shape */}
             <div className={cn(
-                "absolute inset-0 transform -skew-x-12 border border-cyan-500",
-                isPrimary ? "bg-cyan-500 group-hover:bg-black/50" : "bg-transparent group-hover:bg-cyan-500"
+                "absolute inset-0 transform -skew-x-12 border border-cyan-500 transition-colors duration-300",
+                isPrimary ? "bg-cyan-500 group-hover:bg-cyan-400 group-hover:shadow-[0_0_15px_rgba(6,182,212,0.6)]" : "bg-transparent group-hover:bg-cyan-500"
             )} />
 
             {/* Text */}
