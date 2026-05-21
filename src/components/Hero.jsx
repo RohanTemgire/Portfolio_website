@@ -3,13 +3,14 @@ import { PROFILE } from "../data/profile";
 import { HoloCard, StatBar, CyberButton, GlitchText } from "./GamificationElements";
 import { Calculator, Terminal, Cpu } from "lucide-react";
 
+const ICON_MAP = {
+    "Terminal": Terminal,
+    "Calculator": Calculator,
+    "Cpu": Cpu
+};
+
 export function Hero() {
-    const stats = [
-        { label: "PYTHON_MASTERY", value: 95, color: "bg-green-400", icon: Terminal },
-        { label: "DATA_ARCH_INT", value: 90, color: "bg-cyan-400", icon: Calculator },
-        { label: "GEN_AI", value: 85, color: "bg-purple-400", icon: Cpu },
-        { label: "MACHINE_LEARNING", value: 88, color: "bg-blue-400", icon: Terminal },
-    ];
+    const stats = PROFILE.stats.map(s => ({ ...s, icon: ICON_MAP[s.iconName] || Terminal }));
 
     return (
         <section id="hero" className="min-h-[90vh] flex items-center justify-center p-4">

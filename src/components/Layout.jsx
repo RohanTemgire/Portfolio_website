@@ -97,7 +97,7 @@ export function Layout({ children }) {
                         <div className="absolute bottom-0 left-0 w-2 h-2 border-l border-b border-cyan-500" />
                         <div className="absolute bottom-0 right-0 w-2 h-2 border-r border-b border-cyan-500" />
                         <GlitchText text="PLAYER_ONE" className="text-xl font-bold text-white mb-1" />
-                        <div className="text-xs text-cyan-500/70">CLASS: DATA_ENGINEER</div>
+                        <div className="text-xs text-cyan-500/70">CLASS: GENAI_ENGINEER</div>
                     </div>
 
                     <div className="space-y-2 flex-grow">

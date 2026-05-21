@@ -1,12 +1,14 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { ExternalLink, Github, FolderOpen } from "lucide-react";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { PROJECTS } from "../data/projects";
 import { HoloCard } from "./GamificationElements";
 
-const categories = ["All", "GenAI", "ML", "Data Engineering", "Web3"];
-
 export function Projects() {
+    const categories = useMemo(() => {
+        const cats = new Set(PROJECTS.map(p => p.category));
+        return ["All", ...Array.from(cats)];
+    }, []);
     const [filter, setFilter] = useState("All");
 
     const filteredProjects = PROJECTS.filter(
